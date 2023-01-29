@@ -1,0 +1,219 @@
+@font-face {
+    font-family: 'Sourcebold';
+    src: url(fonts/Ubuntu/Ubuntu-Bold.ttf);
+} 
+
+@font-face {
+    font-family: 'Sourceextralight';
+    src: url(fonts/Source_Sans_Pro/SourceSansPro-ExtraLight.ttf);
+}
+
+@font-face {
+    font-family: 'Heading';
+    src: url(fonts/Source_Serif_4/static/SourceSerif4_48pt/SourceSerif4_48pt-ExtraBold.ttf);
+}
+
+@font-face {
+    font-family: 'Quote';
+    src: url(fonts/Source_Serif_4/static/SourceSerif4/SourceSerif4-LightItalic.ttf);
+}
+.container1 {
+    display: flex;
+    flex-direction: column;
+    height: 30em;
+    width: 75em;
+    background-color: #1F2937;
+    margin: 7em 7em 3em 7em;
+}
+
+.header-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1em;
+    margin-left: 10em;
+}
+
+
+.logo {
+    font-family: 'Sourcebold', sans-serif;
+    font-size: 24px;
+    color: #F9FAF8;
+    padding-right: 5em;
+    margin-top: 0.2em;
+    margin-bottom: 2em;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-right: 5em;
+}
+
+a {
+    display: block;
+    padding: 8px;
+    font-family: 'Sourceextralight';
+    font-size: 18px;
+    color: #E5E7EB;
+    text-decoration: none;
+
+}
+
+
+.container2 {
+    display: flex;
+    flex-direction: column;
+    margin: 2em 7em 2em 11em;
+}
+
+
+.card-info {
+    margin: 4em 7em 3em 10em;
+}
+
+.heading {
+    display: block;
+    font-size: 48px;
+    font-family: 'Sourcebold';
+    color: #F9FAF8;
+    margin: 0em;
+}
+
+.info {
+    color: #E5E7EB;
+    font-size: 18px;
+    margin-top: -0em;
+    font-family: 'Sourceextralight';
+}
+
+.img-div {
+    margin-left: 25em;
+    margin-right: 150em;
+    margin-top: -12em;
+    background-color: rgb(131, 134, 138);
+    color: #E5E7EB;
+    font-size: 18px;
+    font-family: 'Sourceextralight';
+    padding: 6em;
+    height: 15px;
+    width: 200px;
+}
+
+button {
+    background-color: #3882F6;
+    border: none;
+    font-family: 'Sourcebold';
+    border-radius: 0.5em;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    color: #E5E7EB;
+}
+
+
+.random-heading {
+    font-size: 36px;
+    font-family: 'Sourcebold';
+    margin-left: 12em;
+    text-orientation: upright;
+}
+
+.random {
+    display: flex;
+    flex-direction: row;
+}
+
+.p {
+    display: flex;
+    justify-content: space-between;
+    width: 15px;
+    height: 15px;
+    padding: 4em;
+    margin: 1em 1em 1em 9em;
+    background-color: none;
+    border-style: solid;
+    border-color: #3882F6;
+    border-width: -5em;
+    border-radius: 1em;
+} 
+
+.random-p {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: -5em 1em 3em 4em;
+    padding-bottom: 4em;
+    padding-top: 4em;
+    padding-right: 2em;
+    font-size: 18px;
+    font-family: 'Sourceextralight';
+    color: #1F2937;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    height: 20em;
+    width: 75em;
+    margin: 2em 7em 3em 7em;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-family: 'Quote';
+    padding: 1em 3em 1em 3em;
+}
+
+.quote-by {
+    padding-left: 50em;
+    margin-top: -5em;
+}
+
+.form {
+    background-color: #3882F6;
+    color: #E5E7EB;
+    border-radius: 0.5em;
+    width: 1000px;
+    margin-left: 10em;
+    padding-bottom: 4em;
+}
+
+#action {
+    font-family: 'Sourcebold';
+    font-size: 24px;
+    padding-left: 8em;
+    padding-top: 2em;
+    padding-bottom: -8em;
+}
+
+#action-text {
+    font-size: 18px;
+    font-family: 'Sourceextralight';
+    padding-left: 10em;  
+    padding-top: 0em;
+}
+
+.sign-up {
+    border-style: solid;
+    font-family: 'Sourcebold';
+    border-radius: 0.5em;
+    margin-left: 55em;
+    margin-top: -15em;
+
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    color: #E5E7EB;
+}
+
+footer {
+    background-color: #1F2937;
+    color: #E5E7EB;
+    padding: 3em;
+    width: 70em;
+    margin-left: 7em;
+    margin-top: 4em;
+}
